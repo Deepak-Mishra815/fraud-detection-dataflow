@@ -1,0 +1,84 @@
+{
+  "BigQuery Schema": [
+  {
+  "name": "TransactionID",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "AccountID",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "TransactionAmount",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "TransactionDate",
+  "type": "TIMESTAMP",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "TransactionType",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "Location",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "DeviceID",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "IPAddress",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "MerchantID",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "Channel",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "CustomerAge",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "CustomerOccupation",
+  "type": "STRING",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "TransactionDuration",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "LoginAttempts",
+  "type": "INTEGER",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "AccountBalance",
+  "type": "FLOAT64",
+  "mode": "NULLABLE"
+  },
+  {
+  "name": "PreviousTransactionDate",
+  "type": "TIMESTAMP",
+  "mode": "NULLABLE"
+  }
+  ]
+  }
