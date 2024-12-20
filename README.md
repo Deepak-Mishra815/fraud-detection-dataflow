@@ -29,7 +29,7 @@ This project demonstrates a complete data pipeline for detecting fraudulent tran
 ### Technical Details
 
 - **Job Name**: bank-tran
-- **Job ID**: 2024-12-18_02_45_22-10859525783347979541
+- **Job ID**: 2024-12-18_03_32_46-13202317258815024886
 - **Job Type**: Batch
 - **Job Status**: Succeeded
 - **SDK Version**: Apache Beam SDK for Java 2.61.0
