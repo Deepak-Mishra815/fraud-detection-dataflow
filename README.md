@@ -63,34 +63,38 @@ The data is generated based on simulated transaction behavior to represent a wid
 
 Here are the various steps and screenshots showcasing the project:
 
-1. Kaggle_dataset_download.png
-2. Dataflow_Pipeline.Create_bucket_CS.jpg
-3. Dataflow_Pipeline.Choose_the_unique_bucket_name.jpg
-4. Dataflow_Pipeline.Clicked_Create_button_CS_bucket.jpg
-5. Dataflow_Pipeline.Choose_the_upload_option.jpg
-6. Dataflow_Pipeline.Files_uploaded_CS.jpg
-7. Dataflow_Pipeline.Create_a_dataset_in_BigQuery.jpg
-8. Dataflow_pipeline_clicked_dataset_creation.jpg
-9. Dataflow_Pipeline.dataset_created.jpg
-10. Dataflow_Pipeline.Created_table_in_the_dataset.jpg
-11. Dataflow_Pipeline.Table_created.jpg
-12. Dataflow_Pipeline.Choose_bank_data_csv_file.jpg
-13. Dataflow_Pipeline.Schema_detection_file_upload.jpg
-14. Dataflow_Pipeline.Select_the_biqquery_table.jpg
-15. Dataflow_Pipeline.Select_the_temp_directory_location.jpg
-16. Dataflow_Pipeline.Choose_temporary_location.jpg
-17. Dataflow_Pipeline_Job_Creation_Started.jpg
-18. Dataflow_Pipeline.Job_created_loaded_bigquery.jpg
-19. Dataflow_Pipeline.Dataloaded_in_BigQuery.jpg
-20. Dataflow_Pipeline.Complete_data_loaded_information.jpg
-21. Dataflow_Pipeline.Select_dataflow_api.jpg
-22. Dataflow_Pipeline.Disabled_Dataflow_API.jpg
-23. Dataflow_Pipeline.Disabled_Dataflow_API_button.jpg
-24. Dataflow_Pipeline.Select_dataflow_api_enabled_button_again.jpg
-25. Dataflow_Pipeline.Select_dataflow.jpg
-26. Dataflow_Pipeline.Select_dataflow_template.jpg
-27. Dataflow_Pipeline.Select_template_CS_to_BigQuery.jpg
-28. Dataflow_Pipeline.Select_region_template_&_name.jpg
+## Screenshots
+
+1. ![Kaggle Dataset Download](Kaggle_dataset_download.png)
+2. ![Create Bucket](Dataflow_Pipeline.Create_bucket_CS.jpg)
+3. ![Choose Unique Bucket Name](Dataflow_Pipeline.Choose_the_unique_bucket_name.jpg)
+4. ![Clicked Create Button](Dataflow_Pipeline.Clicked_Create_button_CS_bucket.jpg)
+5. ![Choose Upload Option](Dataflow_Pipeline.Choose_the_upload_option.jpg)
+6. ![Files Uploaded](Dataflow_Pipeline.Files_uploaded_CS.jpg)
+7. ![Create a Dataset in BigQuery](Dataflow_Pipeline.Create_a_dataset_in_BigQuery.jpg)
+8. ![Clicked Dataset Creation](Dataflow_pipeline_clicked_dataset_creation.jpg)
+9. ![Dataset Created](Dataflow_Pipeline.dataset_created.jpg)
+10. ![Created Table in the Dataset](Dataflow_Pipeline.Created_table_in_the_dataset.jpg)
+11. ![Table Created](Dataflow_Pipeline.Table_created.jpg)
+12. ![Select Dataflow API](Dataflow_Pipeline.Select_dataflow_api.jpg)
+13. ![Choose Bank Data CSV File](Dataflow_Pipeline.Choose_bank_data_csv_file.jpg)
+14. ![Schema Detection File Upload](Dataflow_Pipeline.Schema_detection_file_upload.jpg)
+15. ![Select BigQuery Table](Dataflow_Pipeline.Select_the_biqquery_table.jpg)
+16. ![Selected All Sections Template](Dataflow_Pipeline_selected_all_the_4_sections_template.jpg)
+17. ![Select Temporary Directory Location](Dataflow_Pipeline.Select_the_temp_directory_location.jpg)
+18. ![Choose Temporary Location](Dataflow_Pipeline.Choose_temporary_location.jpg)
+19. ![Job Creation Started](Dataflow_Pipeline_Job_Creation_Started.jpg)
+20. ![Job Created and Loaded to BigQuery](Dataflow_Pipeline.Job_created_loaded_bigquery.jpg)
+21. ![Data Loaded in BigQuery](Dataflow_Pipeline.Dataloaded_in_BigQuery.jpg)
+22. ![Complete Data Loaded Information](Dataflow_Pipeline.Comlete_data_loaded_information.jpg)
+23. ![Disabled Dataflow API](Dataflow_Pipeline.Disabled_Dataflow_API.jpg)
+24. ![Disabled Dataflow API Button](Dataflow_Pipeline.Disabled_Dataflow_API_button.jpg)
+25. ![Select Dataflow API Enabled Button Again](Dataflow_Pipeline.Select_dataflow_api_enabled_button_again.jpg)
+26. ![Select Dataflow](Dataflow_Pipeline.Select_dataflow.jpg)
+27. ![Select Dataflow Template](Dataflow_Pipeline.Select_dataflow_template.jpg)
+28. ![Select Template CS to BigQuery](Dataflow_Pipeline.Select_template_CS_to_BigQuery.jpg)
+29. ![Select Region Template & Name](Dataflow_Pipeline.Select_region_template_&_name.jpg)
+
 
 ## Conclusion
 
