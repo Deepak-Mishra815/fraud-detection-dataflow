@@ -43,13 +43,6 @@ This project demonstrates a complete data pipeline for detecting fraudulent tran
 - **Total HDD PD Time**: 2.429 GB hr
 - **Billable Shuffle Data Processed**: 865 B
 
-### Pipeline Options
-
-1. **Raw Data**: The raw dataset downloaded from Kaggle in CSV format. - File: [bank_data.csv](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/bank_data.csv)
-
-2. **Transformation File**: The JavaScript transformation function used for data parsing. - File: [transform.js](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/transform.js)
-
-3. **BigQuery Schema**: The schema used for BigQuery. - File: [schema.json](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/schema.json)
 
 ## Usage Instructions
 
@@ -65,7 +58,7 @@ The data is generated based on simulated transaction behavior to represent a wid
 ## Additional Files
 
 1. **Raw Data**: The raw dataset downloaded from Kaggle in CSV format.
-   - File: `bank_data.csv`
+   - File: `bank_data.csv`[bank_data.csv](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/bank_data.csv)
 
 2. **Transformation File**: The JavaScript transformation function used for data parsing.
    - File: `transform.js`
