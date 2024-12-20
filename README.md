@@ -45,11 +45,10 @@ This project demonstrates a complete data pipeline for detecting fraudulent tran
 
 ### Pipeline Options
 
-- **Input File Pattern**: gs://qwiklabs-gcp-01-109d078d57d4/bank_data.csv
 1. **Raw Data**: The raw dataset downloaded from Kaggle in CSV format. - File: [bank_data.csv](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/bank_data.csv)
-- **JavaScript Transform Function**: transform
+
 2. **Transformation File**: The JavaScript transformation function used for data parsing. - File: [transform.js](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/transform.js)
-- **Output Table**: qwiklabs-gcp-01-109d078d57d4:bank_transaction.transactions
+
 3. **BigQuery Schema**: The schema used for BigQuery. - File: [schema.json](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/schema.json)
 
 ## Usage Instructions
