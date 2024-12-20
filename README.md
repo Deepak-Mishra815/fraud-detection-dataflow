@@ -205,7 +205,7 @@ The data is generated based on simulated transaction behavior to represent a wid
 
 ## Screenshots
 
-Here are the various steps and screenshots showcasing the project:
+Here are the step-by-step screenshots showcasing the project:
 
 
 1. **Kaggle Dataset Download:**
