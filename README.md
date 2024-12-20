@@ -67,7 +67,7 @@ Here are the various steps and screenshots showcasing the project:
 
 ## Screenshots
 
-1. ![Kaggle Dataset Download](Kaggle_dataset_download.png)
+1. ![Kaggle Dataset Download](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/blob/main/Kaggle_dataset_download.png)
 2. ![Create Bucket](Dataflow_Pipeline.Create_bucket_CS.jpg)
 3. ![Choose Unique Bucket Name](Dataflow_Pipeline.Choose_the_unique_bucket_name.jpg)
 4. ![Clicked Create Button](Dataflow_Pipeline.Clicked_Create_button_CS_bucket.jpg)
