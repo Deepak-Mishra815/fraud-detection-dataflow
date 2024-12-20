@@ -67,7 +67,7 @@ Here are the various steps and screenshots showcasing the project:
 
 ## Screenshots
 
-1. ![Kaggle Dataset Download](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/Kaggle_dataset_download.jpg)
+1. ![Kaggle Dataset Download](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/Kaggle_Dataset_Download.jpg)
 2. ![Select Dataflow API](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/2.Dataflow_Pipeline.Select_dataflow_api.jpg)
 3. ![Disabled Dataflow API](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/3.Dataflow_Pipeline.Disabled_Dataflow_API.jpg)
 4. ![Disabled Dataflow API Button](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/4.Dataflow_Pipeline.Disabled_Dataflow_API_button.jpg)
