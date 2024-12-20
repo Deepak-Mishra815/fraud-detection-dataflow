@@ -63,10 +63,6 @@ The data is generated based on simulated transaction behavior to represent a wid
 
 Here are the various steps and screenshots showcasing the project:
 
-## Screenshots
-
-## Screenshots
-
 1. ![Kaggle Dataset Download](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/Kaggle_dataset_download.png)
 2. ![Create Bucket](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/10.Dataflow_Pipeline.Create_bucket_CS.jpg)
 3. ![Choose Unique Bucket Name](https://github.com/Deepak-Mishra815/fraud-detection-dataflow/raw/main/11.Dataflow_Pipeline.Choose_the_unique_bucket_name.jpg)
