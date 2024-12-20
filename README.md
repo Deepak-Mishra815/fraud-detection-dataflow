@@ -59,6 +59,150 @@ This project demonstrates a complete data pipeline for detecting fraudulent tran
 
 The data is generated based on simulated transaction behavior to represent a wide variety of banking scenarios. It is ideal for data scientists, financial analysts, and researchers looking to analyze transactional patterns, detect fraud, and build predictive models for financial security applications.
 
+
+## Additional Files
+
+1. **Raw Data**: The raw dataset downloaded from Kaggle in CSV format.
+   - File: `bank_data.csv`
+
+2. **Transformation File**: The JavaScript transformation function used for data parsing.
+   - File: `transform.js`
+   - Code:
+     ```javascript
+     function transform(line) {
+       try {
+         // Split the line by commas into an array
+         var values = line.split(',');
+
+         // Check if the line is a header row
+         if (values[0].trim() === 'TransactionID') {
+           return; // Skip the header row
+         }
+
+         // Create a new empty object
+         var obj = new Object();
+
+         // Map values to object properties dynamically
+         obj.TransactionID = values[0].trim();
+         obj.AccountID = values[1].trim();
+         obj.TransactionAmount = values[2].trim() === '' ? null : parseFloat(values[2].trim());
+         obj.TransactionDate = values[3].trim() === '' ? null : new Date(values[3].trim()).toISOString();
+         obj.TransactionType = values[4].trim();
+         obj.Location = values[5].trim();
+         obj.DeviceID = values[6].trim();
+         obj.IPAddress = values[7].trim();
+         obj.MerchantID = values[8].trim();
+         obj.Channel = values[9].trim();
+         obj.CustomerAge = values[10].trim() === '' ? null : parseInt(values[10].trim());
+         obj.CustomerOccupation = values[11].trim();
+         obj.TransactionDuration = values[12].trim() === '' ? null : parseInt(values[12].trim());
+         obj.LoginAttempts = values[13].trim() === '' ? null : parseInt(values[13].trim());
+         obj.AccountBalance = values[14].trim() === '' ? null : parseFloat(values[14].trim());
+         obj.PreviousTransactionDate = values[15].trim() === '' ? null : new Date(values[15].trim()).toISOString();
+
+         // Return the object as a JSON string
+         var jsonString = JSON.stringify(obj);
+         return jsonString;
+       } catch (error) {
+         // Remove the console.error statement
+         return null;
+       }
+     }
+     ```
+
+3. **BigQuery Schema**: The schema used for BigQuery.
+   - File: `schema.json`
+   - Schema:
+     ```json
+     {
+       "BigQuery Schema": [
+         {
+           "name": "TransactionID",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "AccountID",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "TransactionAmount",
+           "type": "FLOAT64",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "TransactionDate",
+           "type": "TIMESTAMP",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "TransactionType",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "Location",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "DeviceID",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "IPAddress",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "MerchantID",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "Channel",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "CustomerAge",
+           "type": "INTEGER",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "CustomerOccupation",
+           "type": "STRING",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "TransactionDuration",
+           "type": "INTEGER",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "LoginAttempts",
+           "type": "INTEGER",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "AccountBalance",
+           "type": "FLOAT64",
+           "mode": "NULLABLE"
+         },
+         {
+           "name": "PreviousTransactionDate",
+           "type": "TIMESTAMP",
+           "mode": "NULLABLE"
+         }
+       ]
+     }
+     ```
+
+
+
+
 ## Screenshots
 
 Here are the various steps and screenshots showcasing the project:
